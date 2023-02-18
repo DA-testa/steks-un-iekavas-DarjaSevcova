@@ -1,4 +1,4 @@
-# python3
+# python3 Darja Ševcova 221RDC039 18.grupa
 
 from collections import namedtuple
 
@@ -30,6 +30,5 @@ def main():
     text = input()
     mismatch = find_mismatch(text)
     print(mismatch)
-    # Printing answer, write your code here
 
     main()
