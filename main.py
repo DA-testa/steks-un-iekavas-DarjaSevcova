@@ -27,8 +27,17 @@ def find_mismatch(text):
 
 
 def main():
+    
     text = input()
     mismatch = find_mismatch(text)
     print(mismatch)
-
-    main()
+    
+inputMode = input()
+if "I" in inputMode:
+    "Enter text with brackets"
+else if "F" in inputMode:
+    "False"
+else:
+    "Your text should contain brackets"
+  
+main()
